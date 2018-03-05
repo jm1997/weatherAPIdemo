@@ -1,4 +1,4 @@
-var feedURL = "your_API_url_goes_here";
+var feedURL = "https://www.metaweather.com/api/location/44418/";
 
 $(document).on('pagecreate', '#feedPage', function(event) {
 	

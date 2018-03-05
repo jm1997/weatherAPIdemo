@@ -21,5 +21,8 @@
 	
 	<!-- give access to all domains in the outside world -->
 	<access origin="*" />
-
+    <!-- plugin gives app permission to access the internet -->
+    <!-- phonegap -> plugins -> core plugins -> whitelist -->
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+        
 </widget>
